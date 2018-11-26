@@ -17,7 +17,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
-				
+				<!-- Esto es el footer -->
 				<h1>Página integramente creada por NR1K Business</h1>
 				<hr>
 				<aside id="secondary" class="widget-area" role="complementary" aria-label="<?php esc_attr_e( 'Blog Sidebar', 'twentyseventeen-child' ); ?>">
