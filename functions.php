@@ -1,6 +1,8 @@
 <?php
 function twentyseventeenchild_widgets_init() {
 
+	//Sidebar creada para el footer
+
 	register_sidebar( array(
 		'name'          => __( 'Footer Kayku', 'twentyseventeen-child' ),
 		'id'            => 'barraquique',
