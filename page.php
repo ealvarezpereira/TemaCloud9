@@ -35,7 +35,8 @@
 								
 
 			?>
-<img src = "/wordpress/wp-content/themes/twentyseventeen-child/longcat.PNG"/>
+			<!-- Imagen del footer de la pague -->
+			<img src = "/wordpress/wp-content/themes/twentyseventeen-child/longcat.PNG"/>
 
 
 		</main><!-- #main -->
