@@ -43,6 +43,9 @@ get_header(); ?>
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 					 */
 					 ?>
+					 
+					 <!-- Codigo que recarga los posts recientes en la pagina -->
+					 
 					 <p class="titulo-post"><b><a href =<?php the_permalink() ?> style="color:lightblue;"> <?php the_title() ?></a></b></p>
 					 <p><?php the_post_thumbnail()?><?php the_excerpt();?></p>
 					 <a class ="leer-mas" href =<?php the_permalink() ?>>Read more...</a>
