@@ -1,0 +1,98 @@
+/*
+Theme Name: Twenty Seventeen-Hijo Quique
+Theme URI: https://wordpress.org/themes/twentyseventeen-child/
+Author: NR1K
+Template: twentyseventeen
+Author URI: https://nr1k.org/
+Description: Esto es una descripción en la que se supone que tengo que describir el el tema. Es un tema chachi, no tiene más.
+License: NR1K Inc.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen-child
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url("/wordpress/wp-content/themes/twentyseventeen/style.css");
+
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
+
+    color: #f00;
+
+}
+
+::placeholder {
+
+    color: #fff;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    opacity: 1;
+
+}
+
+.widget.widget_recent_entries{
+    
+    color:red;
+    
+}
+
+.leer-mas {
+    
+    color: red;
+    
+}
+
+.widget.widget_sp_location_weather_widget_content {
+
+    padding-bottom: 3em;
+    text-align:left;
+}
+
+.titulo-post{
+    
+    text-align: center;
+}
+
+.menu{
+    
+    list-style-type: none;
+    
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-77{
+    
+    list-style-image: url("/wordpress/wp-content/themes/twentyseventeen-child/iconimages/iconfinder_Boss_132688.png");
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-78{
+    
+    list-style-image: url("/wordpress/wp-content/themes/twentyseventeen-child/iconimages/iconfinder_Twitter_132764.png");
+}
+
+.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-79{
+    
+    list-style-image: url("/wordpress/wp-content/themes/twentyseventeen-child/iconimages/iconfinder_Bee_132771.png");
+}
+
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
+
+    color: #f00;
+    animation: rotar 1s infinite;
+
+}
+
+@keyframes rotar{
+    
+    from{transform:rotate(0deg);}
+    
+    to{transform:rotate(360deg);}
+}
+
+.alignnone.size-full.wp-image-27{
+    
+        animation: rotar 1s infinite;
+}
+
+h2.widget-title{
+    
+    color: red;
+}
