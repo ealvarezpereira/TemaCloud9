@@ -52,6 +52,8 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
     text-align: center;
 }
 
+/*Propiedades del menu del footer*/
+
 .menu{
     
     list-style-type: none;
@@ -73,12 +75,16 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
     list-style-image: url("/wordpress/wp-content/themes/twentyseventeen-child/iconimages/iconfinder_Bee_132771.png");
 }
 
+/*Imagen le baguette*/
+
 body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
 
     color: #f00;
     animation: rotar 1s infinite;
 
 }
+
+/*Animacion que hace que rote el titulo*/
 
 @keyframes rotar{
     
@@ -87,10 +93,14 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
     to{transform:rotate(360deg);}
 }
 
+
+
 .alignnone.size-full.wp-image-27{
     
         animation: rotar 1s infinite;
 }
+
+/* Color del titulo de la page */
 
 h2.widget-title{
     
