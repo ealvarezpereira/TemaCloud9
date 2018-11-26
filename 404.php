@@ -21,6 +21,9 @@ get_header(); ?>
 					<h1 class="page-title"><img src = "/wordpress/wp-content/themes/twentyseventeen-child/aymecachis.jpg"/></h1>
 				</header><!-- .page-header -->
 				<div class="page-content">
+					
+					<!-- Frase que dice cuando no se encuentra la pagina -->
+					
 					<p><?php _e( 'Ay mecachis, esta página no ha sido encontrada.', 'twentyseventeen' ); ?></p>
 
 					<?php get_search_form(); ?>
